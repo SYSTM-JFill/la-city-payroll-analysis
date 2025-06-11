@@ -21,7 +21,7 @@ The Los Angeles City Controller’s Office releases detailed payroll records for
 - Bonuses and benefits
 
 🕒 **Time Range:**  
-Data available from **2013 to present**, updated quarterly.
+Data available from **2013 to 2016**, updated quarterly.
 
 ---
 
