@@ -35,4 +35,23 @@ Data available from **2013 to present**, updated quarterly.
 ---
 
 ## 📁 Project Structure
+📁 data/ ← CSV format from Kaggle
+📁 notebooks/ ← Python analysis scripts
+📁 Outputs/
+└── 📁 Figures/ ← Generated plots (.png)
+README.md ← This file
 
+---
+
+## 🖥️ Example Output
+
+A few figures you'll get after running the analysis:
+
+- `pay_vs_service_scatter.png`  
+- `pay_distribution_boxplot.png`  
+- `payroll_forecast_ci.png`  
+- `median_pay_by_job_title.png`
+
+![Payroll Forecast Example](Outputs/Figures/payroll_forecast_ci.png)
+
+---
