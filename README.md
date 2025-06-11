@@ -1,25 +1,38 @@
 # LA City Payroll Analysis 📊
 
-This project analyzes LA city payroll data using Python, with visualizations and forecasting via the Holt-Winters method.
+This project uses Python to analyze the **Los Angeles City Payroll** dataset, generating insights into public employee compensation, trends over time, and department-specific patterns using statistical forecasting and data visualization.
 
-About Dataset
-https://www.kaggle.com/datasets/cityofLA/city-payroll-data/data
-Context
-The Los Angeles City Controller Office releases payroll information for all city employees on a quarterly basis since 2013.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)](https://pandas.pydata.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal?logo=seaborn)](https://seaborn.pydata.org/)
 
-Content
-Data includes department titles, job titles, projected annual salaries (with breakdowns of quarterly pay), bonuses, and benefits information.
+---
+
+## 📚 About the Dataset
+
+📎 **Source:** [Kaggle - City of LA Payroll Data](https://www.kaggle.com/datasets/cityofLA/city-payroll-data/data)
+
+🗂️ **Description:**  
+The Los Angeles City Controller’s Office releases detailed payroll records for city employees on a quarterly basis. This dataset includes:
+
+- Department and job titles  
+- Projected annual salary  
+- Quarterly and total pay  
+- Bonuses and benefits
+
+🕒 **Time Range:**  
+Data available from **2013 to present**, updated quarterly.
+
+---
 
 ## 🔧 Features
-- Pay vs. Years of Service breakdown
-- Department-level analysis (e.g. LAPD)
-- Payroll forecasting with confidence intervals
-- Median pay trends by job title
 
-## 📁 Folder Structure
-📁 data [ CSV Format] - Kaggle URL: https://www.kaggle.com/datasets/cityofLA/city-payroll-data?resource=download
-📁 notebooks [Python Script is here]
-📁 Outputs
-└── 📁 Figures
+- 📌 **Pay vs. Years of Service** — Scatterplots showing compensation over time by department
+- 📊 **Department Analysis** — Focus on specific departments like LAPD
+- 🔮 **Payroll Forecasting** — Uses Holt-Winters (triple exponential smoothing) to forecast future payroll expenses
+- 📈 **Median Pay Trends** — Tracks median salary per job title over the years
 
-After adjusting your own paths and output (make sure to connect the data-set), you should be able to run it and get a few seperate Seaborn visualizations in the output folder.
+---
+
+## 📁 Project Structure
+
